@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: rgb(84, 137, 149);
+    border-radius: 6px;
+    width: 100%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#artwork-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+.container1 {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.brewery {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.p2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
